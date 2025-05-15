@@ -43,7 +43,7 @@ function MyProfile() {
             }))}/>
             : <p className='text-blue-400'>{userData.phone}</p>
         }
-        <p className='font-medium'>Address</p>
+        <p className='font-medium'>CompleteAddress</p>
         {
             isEdit
             ? <p>
